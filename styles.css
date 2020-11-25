@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+	font-family: 'Roboto' , serif;
+}
+body{
+	overflow-y: hidden;
+	background: #ead3d7;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	margin-top: 50px;
+	justify-content: center;
+}
+.main-box{	
+	width: 1000px;
+	height: 650px;
+	display: flex;
+	box-shadow: 0px 15px 22px -4px rgba(199,118,32,0.74);
+}
+.left-side{
+	background-image: url(./img/background.jpg);
+	width: 360px;
+	height: 650px;
+	background-size: 360px 650px;
+}
+.left-side-button{
+	text-decoration: none;
+	display: flex;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	align-items: center;
+	margin: 30px auto auto 30px;
+	color: #999999;
+}
+.left-side-text{
+	text-transform: uppercase;
+	margin-left: 5px;
+}
+.left-side-img{
+	width: 16px;
+	height: 16px;
+}
+.left-side-button:hover{
+	transform: 1s;
+	color: black;
+}
+
+.right-side{
+	width: 640px;
+	height: 650px;
+	background-color: white;
+}
+.nav-right{
+	display: inline-flex;
+	margin:30px 295px auto;
+	flex-direction: row;
+}
+.nav-list{
+	display: flex;
+	
+}
+.nav-items{
+	margin-left: 30px;
+}
+.right-side-nav{
+	text-decoration: none;
+}
+.right-side-text{
+	color: #999999;
+	text-transform: uppercase;
+}
+.right-side-text:hover{
+	transform: 1s;
+	color: black;
+}
+.right-side-title{
+	font-size: 75px;
+	font-weight: 400;
+	margin-left: 70px;
+	width: 400px;
+}
+.line{
+	border: 3px solid black;
+	margin-left: 20px;
+	width: 100px;
+	display: inline-flex;
+	margin-bottom: -85px;
+}
+.right-side-body{
+	margin-top: 120px;
+	display: inline-flex;
+	
+}
+.right-side-subtitle{
+	margin-top: 20px;
+	margin-left: 70px;
+	font-weight: 300;
+}
+.right-side-footer{
+	display: inline-flex;
+	width: 450px;
+	height: 150px;
+	margin-left: 70px;
+	margin-top: 30px;
+}
+.img-left{
+	background-image: url(./img/preview.jpg);	
+	background-repeat: no-repeat;
+	background-size: 180px 115px;
+}
+.left{
+	
+}
+.left-span{
+	display: inline-flex;
+	margin-top: 5px;
+}
+
+.left-subdiv{
+	
+}
+.right{
+	margin-left: 40px;
+}
+.right-text{
+	width: 240px;
+}
+.left-link{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+.img-footer{
+	margin-left: 5px;
+	width: 20px;
+	height: 20px;
+}
+.left-img{
+	width: 180px;
+	height: 115px;
+	background-image: url(./img/play.svg);
+}
